@@ -1,0 +1,14 @@
+1. Загружаем список брендов TD из xlsx файла в таблицу td_brands
+2. Загружаем список брендов UTR из БД 
+php importUtrBrands.php 
+3. Загружаем список псевдонимов UTR из БД
+php importUtrBrandAliases.php
+4. Заполняем таблицу соответствия брендов
+php fillTdUtrBrandTable.php
+5. Загружаем описания 
+php fillDescriptions.php
+6. Загружаем описания 
+php importUtrDetails.php
+
+7. Загружаем критерии
+php fillCriterias.php

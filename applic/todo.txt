@@ -1,0 +1,14 @@
+1. Заполняем производителей
+php fillManuf.php
+2. Заполняем модели
+php fillModels.php
+3. Заполняем машины
+php fillCars.php
+4. Заполняем двигатели
+php fillEngines.php
+5. Заполняем применяемость из файлов
+php fillApplic.php
+6. Загружаем справочники в рабочую БД 
+php putListsToDB.php
+7. Загружаем применяемость в рабочую БД 
+putApplicToDB.php
